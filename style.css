@@ -1,0 +1,97 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+nav{
+    background-color: white;
+}
+.navbar-brand img{
+    max-height: 50%;
+}
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fc0909;
+}
+nav ul li a{
+    color:rgb(241, 87, 87);
+    font-size: 22px;
+    margin: auto 10px;
+}
+nav ul li a:hover{
+   color: #fc0909;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section h1{
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #130c0c;
+    text-align: left;
+    margin-bottom: 20px;    
+}
+section p{
+    color: #110f0fe1;
+    font-size: 16px;
+    font-weight: 300;
+}
+button{
+    max-width: 50%;
+    border-radius: 50 px !important;
+}
+
+#hero .col{
+    justify-content:center;
+    flex-direction: column;
+    display: flex;
+    margin:2%;
+}
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+#hero .img{
+    max-width: 300% !important;
+    width: 300%;
+}
+#hero .card{
+    box-shadow: 11px 7px 16px cornsilk;
+    border:0;
+    margin:5%;
+    text-align: center;
+}
+#hero .icon{
+    width:300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+#about_us .col{
+    justify-content:center;
+    flex-direction: column;
+    display: flex;
+    margin:5%;
+}
+#projects .projects{
+    margin-bottom: 50px;
+    
+}
+#contact {
+    text-align: center;
+    background-color: rgb(117, 107, 107);
+    color: white;
+}
+#contact h1{
+    text-align: center;
+    color:black;
+}
+#contact p{
+    text-align: center;
+    color: white;
+}
+#projects .carousel{
+    margin-left:20%;
+    margin-right: 20%;
+}
